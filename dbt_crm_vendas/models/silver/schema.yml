@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: silver_vendas
+    description: "Dados transformados das vendas."
+    columns:
+      - name: data
+        description: "Data da venda no formato YYYY-MM-DD"
+      - name: vendedor
+        description: "Email do vendedor"
+      - name: produto
+        description: "Nome do produto vendido"
+      - name: quantidade
+        description: "Unidades vendidas"
+      - name: valor
+        description: "Valor da venda"

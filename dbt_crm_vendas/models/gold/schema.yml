@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: gold_vendas_por_produto
+    description: "Agrega as vendas por produto nos últimos 7 dias, exibindo o total de vendas e a quantidade de unidades vendidas de cada produto."
+    columns:
+      - name: data
+        description: "Data das vendas agregadas por produto no formato YYYY-MM-DD"
+      - name: produto
+        description: "Nome do produto vendido"
+      - name: total_vendas
+        description: "Número total de vendas do produto na data especificada"
+      - name: quantidade_total
+        description: "Quantidade total de unidades vendidas do produto na data especificada"
+      - name: valor_total
+        description: "Valor total das vendas do produto na data especificada"
+
+  - name: gold_vendas_por_vendedor
+    description: "Agrega as vendas por vendedor nos últimos 7 dias, exibindo o desempenho de cada vendedor em termos de valor, quantidade e número de vendas."
+    columns:
+      - name: data
+        description: "Data das vendas agregadas por vendedor no formato YYYY-MM-DD"
+      - name: vendedor
+        description: "Email do vendedor que realizou as vendas"
+      - name: total_vendas
+        description: "Número total de vendas realizadas pelo vendedor na data especificada"
+      - name: quantidade_total
+        description: "Quantidade total de unidades vendidas pelo vendedor na data especificada"
+      - name: valor_total
+        description: "Valor total das vendas realizadas pelo vendedor na data especificada"

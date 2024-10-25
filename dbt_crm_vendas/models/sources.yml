@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: crm_vendas_source
+    schema: public
+    description: "Dados de vendas extraídos do CRM de Vendas."
+    tables:
+      - name: vendas
+        description: "Dados históricos das vendas."
+        columns:
+          - name: email
+            description: "Email do vendedor"
+          - name: data
+            description: "Data da venda"
+          - name: valor
+            description: "Valor da venda"
+          - name: quantidade
+            description: "Unidades vendidas"
+          - name: produto
+            description: "Nome do produto vendido"

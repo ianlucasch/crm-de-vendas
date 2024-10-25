@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: bronze_vendas
+    description: "Dados históricos das vendas."
+    columns:
+      - name: email
+        description: "Email do vendedor"
+      - name: data
+        description: "Data da venda"
+      - name: valor
+        description: "Valor da venda"
+      - name: quantidade
+        description: "Unidades vendidas"
+      - name: produto
+        description: "Nome do produto vendido"
