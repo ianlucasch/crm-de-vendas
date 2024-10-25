@@ -1,0 +1,10 @@
+streamlit==1.39.0
+python-dotenv==1.0.1
+psycopg2-binary==2.9.9
+pydantic==2.9.2
+pydantic[email]==2.9.2
+mkdocs==1.6.1
+mkdocs-material==9.5.42
+mkdocstrings==0.26.2
+mkdocstrings-python==1.12.2
+dbt-postgres==1.8.2
