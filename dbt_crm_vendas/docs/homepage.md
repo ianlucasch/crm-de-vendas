@@ -95,7 +95,7 @@ Os sources são as tabelas ou arquivos de origem dos dados que o DBT utiliza par
 
 6. Configure a conexão com PostgreSQL:
 
-   Configure o arquivo `profiles.yml` com suas variáveis de ambiente para se conectar ao seu banco de dados. O arquivo deve estar no diretório `~/.dbt/` ou no diretório especificado pela variável de ambiente `DBT_PROFILES_DIR`.
+   Configure o arquivo `profiles.yml` com suas variáveis de ambiente para conectar o DBT ao PostgreSQL. O arquivo deve estar no diretório `~/.dbt/` ou no diretório especificado pela variável de ambiente `DBT_PROFILES_DIR`.
 
    Exemplo de `profiles.yml`:
    ```yaml
