@@ -15,7 +15,7 @@ Sistema de CRM de Vendas para registrar e analisar os dados de vendas realizadas
 
 ## Sobre o projeto
 
-Este projeto tem como objetivo criar um sistema de CRM de Vendas para registrar e analisar os dados de vendas realizadas em um período específico. Esses dados são extraídos do CRM de Vendas, carregados diretamente no banco de dados [PostgreSQL](https://www.postgresql.org/download/) e posteriormente são tratados pelo [DBT Core](https://github.com/dbt-labs/dbt-core).
+Este projeto tem como objetivo criar um sistema de CRM de Vendas para registrar e analisar os dados de vendas realizadas num período específico. Esses dados são extraídos do CRM de Vendas que é implementado em [Streamlit](https://github.com/streamlit/streamlit), carregados diretamente no banco de dados [PostgreSQL](https://www.postgresql.org/download/) e posteriormente são tratados pelo [DBT Core](https://github.com/dbt-labs/dbt-core).
 
 A plataforma [Render](https://render.com/) foi utilizada para subir um PostgreSQL Server na nuvem.
 
